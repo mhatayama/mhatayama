@@ -1,0 +1,76 @@
+@media screen and (min-width: 720px) {
+    section {
+        margin: 0 auto;
+        width: 720px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .section {
+        width: 100%;
+    }
+}
+
+body {
+    color: black;
+    background-color: white;
+    font-family: serif;
+    font-weight: normal;
+}
+
+.container {
+    margin: 1em 1em;
+}
+
+span.title {
+    font-size: 1.6em;
+    letter-spacing: 1px;
+}
+
+div.eop {
+    font-size: 0.8em;
+    margin: 5.0em 0em 2.0em;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.2em;
+    margin: 2.0em 0em;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.1em;
+    margin: 1.0em 0em;
+    /* border-bottom: 1px solid lightgray; */
+}
+
+p {
+    margin: 0.5em 0em;
+}
+
+pre {
+    font-size: 0.9em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 0.5em;
+}
+
+li:before {
+    content: '-';
+    margin: 0;
+    padding: 0;
+    padding-right: 0.5em;
+}
+
+a,
+a:active,
+a:hover,
+a:visited {
+    color: black;
+    text-decoration-style: dotted;
+}
