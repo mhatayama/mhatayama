@@ -42,15 +42,10 @@ h1 {
 h2 {
     font-size: 1.1em;
     margin: 1.0em 0;
-    /* border-bottom: 1px solid lightgray; */
 }
 
 p {
     margin: 0.5em 0;
-}
-
-pre {
-    font-size: 0.9em;
 }
 
 ul {
@@ -68,7 +63,8 @@ li:before {
 }
 
 li {
-    margin: 0.5em 0;
+    margin: 0.2em 0;
+    padding: 0.2em 0;
 }
 
 a,
